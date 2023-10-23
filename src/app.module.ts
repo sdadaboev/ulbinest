@@ -27,9 +27,7 @@ import sequelize from "sequelize";
             models: [User, Role, UserRoles],
             autoLoadModels: true
           }),
-          SequelizeModule.sync({force: true}).then(()=> {
-            console.log("restart database")
-        }),
+          
         UsersModule,
         RolesModule,
     ]
