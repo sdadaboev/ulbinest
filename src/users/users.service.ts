@@ -7,13 +7,15 @@ import { CreateaUserDto } from './dto/create-user.dto';
 export class UsersService {
 
     constructor(@InjectModel(User) private userRepository: typeof User){
-
-    }
-    async createUsers(dto: CreateaUserDto) {
-
-    }
-    async getUsers() {
         
+    }
+    async createUser(dto: CreateaUserDto) {
+        const user = await this.userRepository.create(dto)
+        return user
+    }
+    async getAllUsers() {
+          const users = await this.userRepository.findAll()
+          return users
     }
    
 }
