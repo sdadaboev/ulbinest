@@ -1,7 +1,13 @@
 # compiled output
 /dist
 /node_modules
+<<<<<<< HEAD
 
+=======
+config.json
+.development.env
+.production.env
+>>>>>>> 13b865d5730ca7fbaeaeed456c430dc5de6751b0
 # Logs
 logs
 *.log
