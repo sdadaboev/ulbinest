@@ -1,0 +1,15 @@
+{
+    "tinda": {
+      "getToken": "https://gate.tinda.uz/token",
+      "refreshToken": "https://gate.tinda.uz/token/refresh",
+      "user": "admin_arca",
+      "password": "ghkCk5y6K6aJKfNGHhzAemVe",
+      "merchantCallBackUrl": "https://arcana.uz/api/crm/tinda/callback/merchant",
+      "storeCallBackUrl": "https://arcana.uz/api/crm/tinda/callback/office",
+      "posCallBackUrl": "https://arcana.uz/api/crm/tinda/callback/pos",
+      "merchant": "https://gate.tinda.uz/token/external-data-loader/merchant",
+      "store": "https://gate.tinda.uz/token/external-data-loader/store",
+      "pos": "https://gate.tinda.uz/external-data-loader/pos"
+    }
+  }
+  
